@@ -1,9 +1,10 @@
-﻿using System.Data;
-using System.Data.SqlClient;
-using Dapper;
+﻿using Dapper;
+using StarterKit.Data.Repository;
 using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
 
-namespace StarterKit.Data.Repository
+namespace StarterKit.Data.Config
 {
     public  class BaseRepository<T> : IRepositoryInterface<T>
     {

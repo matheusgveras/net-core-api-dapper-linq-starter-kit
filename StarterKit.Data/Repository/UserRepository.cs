@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using Dapper;
-using LiderHD.CORE.Config;
-using LiderHD.CORE.Models;
+using StarterKit.Data.Config;
+using StarterKit.Data.Models;
 
-namespace LiderHD.CORE.Repository
+
+namespace StarterKit.Data.Repository
 {
     public class UserRepository : BaseRepository<User>
     {

@@ -5,12 +5,11 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Security.Principal;
 using Microsoft.IdentityModel.Tokens;
-using LiderHD.CORE.Repository;
-using LiderHD.CORE.Models;
-using SmitAPI.Autenticate;
-using SmitAPI.Models;
+using StarterKit.Data.Models;
+using StarterKit.Data.Repository;
+using StarterKit.Autenticate;
 
-namespace LiderHD.Controllers
+namespace StarterKit.API.Controllers
 {
     [Route("api/[controller]")]
     public class LoginController
